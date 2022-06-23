@@ -38,6 +38,6 @@ body {
   height: 100%;
   background-color: white;
 }
-#dynamic.active::after {
+.active::after {
   display: none;
 }
