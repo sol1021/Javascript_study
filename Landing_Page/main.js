@@ -31,5 +31,5 @@ function dynamic(randomArr) {
 }
 dynamic(randomString());
 
-//커서 깜빡임
+//커서 깜빡임 추가
 setInterval(blink, 500);
