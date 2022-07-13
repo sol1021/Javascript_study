@@ -12,7 +12,7 @@ const PORT = process.env.PORT || 5000;
 io.on("connection", (socket) => {
   socket.on("chatting", (data) => {
     console.log(data);
-    io.emit("chatting", `그래 반가워 ${data}`)
+    io.emit("chatting", data);
   });
 });
 
